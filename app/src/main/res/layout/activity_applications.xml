@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter"
+    tools:context="com.example.dell.floydalgorithm.Applications">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Applications"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:background="@color/lighter"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="8sp"
+        android:padding="10dp"
+        android:text="The Floyd–Warshall algorithm can be used to solve the following problems, among others:\n\t 1. Shortest paths in directed graphs.\n\t 2. Transitive closure of directed graphs (Warshall's algorithm). In Warshall's original formulation of the algorithm, the graph is unweighted and represented by a Boolean adjacency matrix. Then the addition operation is replaced by logical conjunction (AND) and the minimum operation by logical disjunction (OR).\n\t 3. Finding a regular expression denoting the regular language accepted by a finite automaton.\n\t 4. Inversion of real matrices (Gauss–Jordan algorithm)\n\t 5. Widest paths/Maximum bandwidth paths.\n\t 6. Computing canonical form of difference bound matrices (DBMs)."
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        tools:paddingLeft="10dp" />
+
+
+</RelativeLayout>

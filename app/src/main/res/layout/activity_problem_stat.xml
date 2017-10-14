@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter"
+    tools:context="com.example.dell.floydalgorithm.problem_stat">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="Problem Statement"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="8dp"
+        android:background="@color/lighter"
+        android:fontFamily="serif"
+        android:lineSpacingExtra="10sp"
+        android:padding="10dp"
+        android:text="Floyd Warshal  is an algorithm for finding shortest paths in a weighted graph with positive or negative edge weights but with no negative cycles. It does so by comparing all possible paths through the graph between each pairs of vertices. The run time is  O(V3)."
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        tools:paddingLeft="10dp" />
+
+
+</RelativeLayout>

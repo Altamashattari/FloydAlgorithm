@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context="com.example.dell.floydalgorithm.takeEdges">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="75dp"
+        android:background="@color/lightBlue"
+        android:fontFamily="serif"
+        android:text="ADD EDGES AND WEIGHT"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="From"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/from"
+        android:layout_below="@+id/from"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="To"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/to"
+        android:layout_below="@+id/to"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/weight"
+        android:layout_below="@+id/weight"
+        android:layout_marginTop="41dp"
+        android:background="@color/lightBlue"
+        android:fontFamily="serif"
+        android:text="Add"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add"
+        android:layout_alignBottom="@+id/add"
+        android:layout_alignEnd="@+id/textView7"
+        android:background="@color/lightBlue"
+        android:fontFamily="serif"
+        android:text="Submit"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/error_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/add"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="45dp"
+        android:background="@color/error"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter"
+    tools:context="com.example.dell.floydalgorithm.Intro">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:padding="5dp"
+        android:text="Floyd Warshall Algorithm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+    <Button
+        android:id="@+id/ps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:text="Problem Statement"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/algo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:text="Pseudocode"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/algo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:text="Application"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/example"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:text="Implementation"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/application"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/holo_blue_light"
+        android:fontFamily="sans-serif"
+        android:text="Example"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
